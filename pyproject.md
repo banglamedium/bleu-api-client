@@ -8,7 +8,7 @@ version = "2.0"
 description = "API for Online Identity Verification"
 author = "Devante"
 author_email = "urwurk@gmail.com"
-url = "https://github.com/jzmalik123/bleu-api"
+url = "https://github.com/banglamedium/bleu-api-client"
 license = "MIT"
 
 [project]
@@ -27,5 +27,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/jzmalik123/bleu-api"
-"Bug Tracker" = "https://github.com/jzmalik123/bleu-api/issues"
+"Homepage" = "[https://github.com/banglamedium/bleu-api-client/"
+"Bug Tracker" = "https://github.com/banglamedium/bleu-api-client/"
