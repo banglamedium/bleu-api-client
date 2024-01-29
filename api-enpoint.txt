@@ -1,0 +1,46 @@
+Api endpoint 
+1. **Generate Token:**
+   - Endpoint: `/auth/api/access-token`
+   - Method: `POST`
+   - Description: Generates an access token using client credentials.
+
+2. **Get KYC Rules:**
+   - Endpoint: `/kycrules/api/kycrules`
+   - Method: `GET`
+   - Description: Retrieves KYC rules from the Faceki API.
+
+3. **Request KYC:**
+   - Endpoint: `/kycverify/api/kycverify/kyc-verification`
+   - Method: `POST`
+   - Description: Performs KYC verification using provided images.
+
+4. **Multiple KYC Verification:**
+   - Endpoint: `/kycverify/api/kycverify/multi-kyc-verification`
+   - Method: `POST`
+   - Description: Performs multiple KYC verification using provided images.
+
+5. **Get KYC Summary:**
+   - Endpoint: `/kycverify/api/kycverify/kyc-verify-summary`
+   - Method: `GET`
+   - Description: Retrieves a list of KYC summaries from the Faceki API.
+
+6. **Generate KYC Link:**
+   - Endpoint: `/kycverify/api/kycverify/kyc-verify-link`
+   - Method: `POST`
+   - Description: Generates a unique KYC link for user identity verification.
+
+7. **Get KYC Records by Link ID:**
+   - Endpoint: `/kycverify/api/kycverify/link/{link_id}`
+   - Method: `GET`
+   - Description: Fetches KYC records based on the provided link ID.
+
+8. **Get KYC Records by Request ID:**
+   - Endpoint: `/kycverify/api/kycverify/records/{request_id}`
+   - Method: `GET`
+   - Description: Fetches KYC records based on the provided Request ID.
+
+9. **Face Match:**
+   - Endpoint: `/facelink/api/face-check`
+   - Method: `POST`
+   - Description: Performs a face match verification using the Face Match API.
+
